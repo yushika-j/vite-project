@@ -1,6 +1,7 @@
 interface Props{
     items: string[];
     heading: string;
+    onSelectItem: (item:string) => void;
 }
 import { useState } from "react";
 
